@@ -31,7 +31,7 @@ export default function Contact() {
               <div>
                 <p className="text-xs text-gray-400 tracking-widest">EMAIL</p>
                 <a
-                  href="mailto:kavindu@example.com"
+                  href="mailto:kavindusasmitha20@gmail.com"
                   className="text-white hover:text-[#7aba3a] transition-colors"
                 >
                   kavindu@example.com
