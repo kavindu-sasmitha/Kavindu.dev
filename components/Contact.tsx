@@ -34,7 +34,7 @@ export default function Contact() {
                   href="mailto:kavindusasmitha20@gmail.com"
                   className="text-white hover:text-[#7aba3a] transition-colors"
                 >
-                  kavindu@example.com
+                  kavindusasmitha20@gmail.com
                 </a>
               </div>
             </div>
