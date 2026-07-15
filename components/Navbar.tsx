@@ -44,7 +44,7 @@ export default function Navbar() {
 
           <a
             href="/resume.pdf"
-            target="_blank"
+            download="Kavindu_Sasmitha_Resume.pdf"
             className="px-5 py-2.5 bg-[#7aba3a] text-black font-bold text-xs uppercase tracking-wider rounded-full hover:bg-[#8fd44a] active:scale-95 transition-all shadow-lg shadow-[#7aba3a]/30"
           >
             Resume
@@ -87,7 +87,7 @@ export default function Navbar() {
 
           <a
             href="/resume.pdf"
-            target="_blank"
+            download="Kavindu_Sasmitha_Resume.pdf"
             onClick={closeMenu}
             className="mt-2 px-5 py-3 bg-[#7aba3a] text-black font-bold text-center rounded-full hover:bg-[#8fd44a] transition-all"
           >
