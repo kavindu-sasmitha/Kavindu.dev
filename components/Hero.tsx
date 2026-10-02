@@ -59,9 +59,9 @@ export default function Hero() {
           {/* Stats */}
           <div className="flex gap-6 sm:gap-8 mt-10 pt-8 border-t border-[#1e1f35] justify-center lg:justify-start">
             {[
-              { value: "0.5+", label: "Years Exp." },
+              { value: "2+", label: "Years Exp." },
               { value: "20+", label: "Projects" },
-              { value: "5+", label: "Clients" },
+              { value: "10+", label: "Clients" },
               { value: "0", label: "Awards" },
             ].map((s) => (
               <div key={s.label}>
