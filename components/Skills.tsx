@@ -22,14 +22,7 @@ export default function Skills() {
     },
     {
       title: "Software Engineering & Architecture",
-      skills: [
-        "Layered Architecture",
-        "OOP",
-        "Software Engineering",
-        "Design Patterns",
-        "Microservices",
-        "RAD",
-      ],
+      skills: ["Layered Architecture", "OOP", "Software Engineering", "Design Patterns", "Microservices", "RAD"],
     },
     {
       title: "Core Computer Science",
@@ -38,9 +31,9 @@ export default function Skills() {
   ];
 
   return (
-    <section className="bg-[#0d130d] py-20 px-6">
+    <section className="bg-[#0d0e1a] py-20 px-6">
       <div className="max-w-6xl mx-auto">
-        <p className="text-[#7aba3a] text-xs font-bold uppercase tracking-widest text-center mb-2">
+        <p className="text-[#8b5cf6] text-xs font-bold uppercase tracking-widest text-center mb-2">
           TECH STACK
         </p>
         <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-16">
@@ -50,14 +43,14 @@ export default function Skills() {
         <div className="grid md:grid-cols-2 gap-10">
           {skillCategories.map((category) => (
             <div key={category.title} className="space-y-4">
-              <h3 className="text-[#7aba3a] text-lg font-bold tracking-wider uppercase border-b border-[#1e2e1e] pb-3">
+              <h3 className="text-[#8b5cf6] text-lg font-bold tracking-wider uppercase border-b border-[#1e1f35] pb-3">
                 {category.title}
               </h3>
               <div className="flex flex-wrap gap-3">
                 {category.skills.map((skill) => (
                   <span
                     key={skill}
-                    className="px-5 py-2.5 bg-[#111a0f] border border-[#1e2e1e] rounded-full text-sm font-medium text-gray-300 hover:border-[#7aba3a]/70 hover:text-[#7aba3a] hover:bg-[#1a2519] transition-all cursor-default"
+                    className="px-5 py-2.5 bg-[#13142b] border border-[#1e1f35] rounded-full text-sm font-medium text-gray-300 hover:border-[#7c3aed]/70 hover:text-[#8b5cf6] hover:bg-[#1a1b3a] transition-all cursor-default"
                   >
                     {skill}
                   </span>
@@ -66,8 +59,6 @@ export default function Skills() {
             </div>
           ))}
         </div>
-
-        {/* Additional Note */}
       </div>
     </section>
   );
