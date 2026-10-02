@@ -3,7 +3,7 @@ export default function Experience() {
     {
       role: "Full Stack Software Engineer",
       company: "Ministry of Finance",
-      period: "1 Year",
+      period: "Present",
       type: "Full-time",
       location: "Sri Lanka",
       color: "#7c3aed",
@@ -18,7 +18,7 @@ export default function Experience() {
     {
       role: "Java Spring Boot Backend Developer",
       company: "CeylixSoft Solutions",
-      period: "1 Year",
+      period: "Present",
       type: "Part-time",
       location: "Sri Lanka",
       color: "#3b82f6",
@@ -33,7 +33,7 @@ export default function Experience() {
     {
       role: "Freelance Full Stack Developer",
       company: "Self-Employed",
-      period: "2 Years",
+      period: "Present",
       type: "Freelance",
       location: "Remote",
       color: "#a855f7",
