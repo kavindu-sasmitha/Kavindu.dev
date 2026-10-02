@@ -22,12 +22,12 @@ export default function TechMarquee() {
   const doubled = [...techs, ...techs];
 
   return (
-    <div className="relative bg-[#0a0b18] border-y border-[#1e1f35] py-5 overflow-hidden">
+    <div className="relative bg-[#0a0b18] border-y border-[#1e1f35] py-3 sm:py-5 overflow-hidden">
       {/* Left fade */}
-      <div className="absolute left-0 top-0 bottom-0 w-24 z-10 pointer-events-none"
+      <div className="absolute left-0 top-0 bottom-0 w-12 sm:w-24 z-10 pointer-events-none"
         style={{ background: "linear-gradient(to right, #0a0b18, transparent)" }} />
       {/* Right fade */}
-      <div className="absolute right-0 top-0 bottom-0 w-24 z-10 pointer-events-none"
+      <div className="absolute right-0 top-0 bottom-0 w-12 sm:w-24 z-10 pointer-events-none"
         style={{ background: "linear-gradient(to left, #0a0b18, transparent)" }} />
 
       <style>{`
@@ -49,9 +49,9 @@ export default function TechMarquee() {
         {doubled.map((tech, i) => (
           <div
             key={i}
-            className="flex items-center gap-2 mx-6 px-5 py-2 rounded-full border border-[#1e1f35] bg-[#13142b] text-sm font-medium text-gray-300 whitespace-nowrap hover:border-[#7c3aed]/50 hover:text-white transition-colors cursor-default"
+            className="flex items-center gap-1.5 sm:gap-2 mx-3 sm:mx-6 px-4 sm:px-5 py-1.5 sm:py-2 rounded-full border border-[#1e1f35] bg-[#13142b] text-xs sm:text-sm font-medium text-gray-300 whitespace-nowrap hover:border-[#7c3aed]/50 hover:text-white transition-colors cursor-default"
           >
-            <span className="text-base leading-none">{tech.icon}</span>
+            <span className="text-sm sm:text-base leading-none">{tech.icon}</span>
             <span>{tech.name}</span>
           </div>
         ))}
