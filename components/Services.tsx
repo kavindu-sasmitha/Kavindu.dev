@@ -245,29 +245,31 @@ function OrbitUniverse() {
 /* ── MAIN COMPONENT ──────────────────────────────────────── */
 export default function Services() {
   return (
-    <section id="services" className="bg-[#0d0e1a] py-24 px-6 overflow-hidden">
+    <section id="services" className="bg-[#0d0e1a] py-16 sm:py-24 px-4 sm:px-6 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-20">
           <p className="text-[#8b5cf6] text-xs font-bold uppercase tracking-[0.3em] mb-3">
             What I Do
           </p>
-          <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mb-4">
             My{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7c3aed] to-[#3b82f6]">
               Services
             </span>
           </h2>
-          <p className="text-gray-400 max-w-xl mx-auto text-[15px] leading-relaxed">
+          <p className="text-gray-400 max-w-xl mx-auto text-sm sm:text-[15px] leading-relaxed px-4">
             Full-stack solutions from pixel-perfect UIs to scalable backend systems — built with the tools I use every day.
           </p>
         </div>
 
         {/* Main Layout */}
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
-          {/* LEFT: Orbit Universe */}
+          {/* LEFT: Orbit Universe — hidden on small mobile, shown from sm up */}
           <div className="flex-shrink-0 flex items-center justify-center">
-            <OrbitUniverse />
+            <div className="scale-75 sm:scale-90 lg:scale-100 origin-center">
+              <OrbitUniverse />
+            </div>
           </div>
 
           {/* RIGHT: Service Cards */}
